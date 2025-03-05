@@ -8,15 +8,14 @@ st.set_page_config(page_title="Password Strength Checker", page_icon=("🌘"), l
 st.markdown("""
 <style>
     .main {text-align: centre;}
-    .stTextInput {width: 60% !important; margin: auto;}
+    .stTextInput {width: 50% !important; margin: auto;}
     .stButton button {width: 50%; background-color: lightblue; color: black; font-size: 18px;}
     .stButton button:hover {background-color: lightgray; color: black;}
 </style>
 """, unsafe_allow_html=True)
 
 # Page title and description
-st.title("🔐 Password Strength Generator By
-                       Kinza")
+st.title("🔐 Password Strength Generator By Kinza")
 st.write("Enter your password below to check its security level. 🔍")
 
 # Function to check password strength
