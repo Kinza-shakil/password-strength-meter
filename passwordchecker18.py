@@ -2,15 +2,15 @@ import re
 import streamlit as st
 
 # Page styling
-st.set_page_config(page_title="Password Strength Checker By Kinza Shakil", page_icon=("🌘"), layout="centered")
+st.set_page_config(page_title="Password Strength Checker", page_icon=("🌘"), layout="centered")
 
 # Custom CSS
 st.markdown("""
 <style>
     .main {text-align: right;}
     .stTextInput {width: 60% !important; margin: auto;}
-    .stButton button {width: 50%; background-color: lightgray; color: white; font-size: 18px;}
-    .stButton button:hover {background-color: lightblue; color: white;}
+    .stButton button {width: 50%; background-color: lightblue; color: black; font-size: 18px;}
+    .stButton button:hover {background-color: lightgray; color: black;}
 </style>
 """, unsafe_allow_html=True)
 
