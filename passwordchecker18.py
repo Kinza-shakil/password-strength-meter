@@ -7,9 +7,9 @@ st.set_page_config(page_title="Password Strength Checker By Kinza Shakil", page_
 # Custom CSS
 st.markdown("""
 <style>
-    .main {text-align: center;}
+    .main {text-align: right;}
     .stTextInput {width: 60% !important; margin: auto;}
-    .stButton button {width: 50%; background-color: blue; color: white; font-size: 18px;}
+    .stButton button {width: 50%; background-color: black; color: black; font-size: 18px;}
     .stButton button:hover {background-color: red; color: white;}
 </style>
 """, unsafe_allow_html=True)
