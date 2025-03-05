@@ -15,7 +15,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Page title and description
-st.subheader("🔐 Password Strength Generator By Kinza")
+st.header("🔐 Password Strength Generator By Kinza")
 st.write("Enter your password below to check its security level. 🔍")
 
 # Function to check password strength
