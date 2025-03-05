@@ -80,7 +80,7 @@ def check_password_strength(password):
         st.success("✅ **Strong Password** - Your password is secure.")
     elif score >= 3:
         st.info("⚠️ **Moderate Password** - Consider improving security by adding some security features.")
-    else
+    else 
         st.error("❌ **Weak Password** - Follow the suggestion below to strength it.")
 
     #feedback
