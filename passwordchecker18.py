@@ -64,6 +64,9 @@ def check_password_strength(password):
 # Input field for password
 password = st.text_input("Enter your password:", type="password", help="Ensure your password is strong 🔐")
 
+#Add a small spacing fix
+st.markdown("<style>div.stButton { margin-top: -10px; }</style>"),unsafe_allow_html=True
+
 # Button to check password strength
 if st.button("Check Strength"):
     if password:
