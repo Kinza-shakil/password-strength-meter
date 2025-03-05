@@ -8,8 +8,8 @@ st.set_page_config(page_title="Password Strength Checker", page_icon=("🌘"), l
 st.markdown("""
 <style>
     .main {text-align: centre;}
-    .stTextInput {width: 70% !important; margin: auto;}
-    .stButton button {width: 70; background-color: lightblue; color: black; font-size: 18px;}
+    .stTextInput {width: 100%; !important; margin: auto;}
+    .stButton button {width: 100%; background-color: lightblue; color: black; font-size: 18px;}
     .stButton button:hover {background-color: lightgray; color: black;}
 </style>
 """, unsafe_allow_html=True)
