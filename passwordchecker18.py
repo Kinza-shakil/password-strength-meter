@@ -61,10 +61,11 @@ def check_password_strength(password):
             for item in feedback:
                 st.write(item)
 
-# Create a form to group the password input and the button together
+# Creating a form to group the input and button together
 with st.form(key='password_form'):
     password = st.text_input("Enter your password:", type="password", help="Ensure your password is strong 🔐")
-    # Button inside the form to check password strength
+
+    # Button to check password strength
     check_strength_button = st.form_submit_button("Check Strength")
 
 # Check if the button was pressed
@@ -73,3 +74,6 @@ if check_strength_button:
         check_password_strength(password)
     else:
         st.warning("⚠️ Please enter a password first!")  # Show warning if password is empty
+
+# Add a small spacing fix for the button
+st.markdown("<style>div.stButton { margin-top: -10px; }</style>", unsafe_allow_html=True)
