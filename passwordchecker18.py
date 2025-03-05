@@ -59,7 +59,7 @@ def check_password_strength(password):
     else:
         feedback.append("❌ Password should be **atleast 8 characters long**.")
 
-    if re.search(r"[A-Z]", password) and re.search(r"[a-z]", password)
+    if re.search(r"[A-Z]", password) and re.search(r"[a-z]", password):
         score += 1
     else:
         feedback.append("❌ Password should include **uppercase (A-Z) and lowercase (a-z)letters**.")
